@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Event-Details</title>
+    <link rel="reset.css" href="reset.css" />
+    <link rel="stylesheet" href="event-details.css" />
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div class="grid__page">
+        <header>
+        </header>
+
+        <main>
+            <div class="nav">
+                <ul class="nav__ul">
+                    <li class="nav__li"><a href="#section-about">About Event</a></li>
+                    <li class="nav__li"><a href="#section-schedule">Schedule</a></li>
+                    <li class="nav__li"><a href="#section-gallery">Gallery</a></li>
+                    <li class="nav__li"><a href="#section-contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="section-info">
+                <h3 class="section-info__color">Date & times</h3>
+                <p><i class="far fa-clock"></i> 04 Nov 2019, 10 to 15.00 </p>
+                <h3 class="section-info__color">Location</h3>
+                <p><i class="fas fa-location-arrow"></i> 246 King Street NY 10011</p>
+                <h3 class="section-info__color">Organizer</h3>
+                <p> <i class="fas fa-user-alt"></i> Egypt Historical Museum</p>
+                <h3 class="section-info__color">Ticket Cost</h3>
+                <p><i class="far fa-money-bill-alt"></i> Adults - $15/Childrens - 10$</p>
+                <p class="section-info__color">*Free for Museum Members</p>
+            </div>
+            <div class="section-info__image"> <img src="img/1.jpg" alt="Egypte" /></div>
+
+            <div class="section-booking">
+                <h3>Online Booking</h3>
+                <input id="name" type="name" required placeholder="Your name">
+                <input id="emailAddress" type="email" size="30" maxLength="30" required placeholder="Email Adress">
+                <div>
+                    <div id="btn_minus">-</div>
+                    <input id="section-booking__number" type="number" size="4" min="0" maxLength="4" required
+                        placeholder="0">
+                    <div id="btn_plus">+</div>
+                </div>
+                <input id="section-booking__children" type="number" size="4" min="0" maxLength="4" required
+                    placeholder="Children">
+                <textarea id="message" cols="30" rows="6" required placeholder="Description"></textarea>
+                <a href="" target="_blank"><button id="section-booking__btn">PROCEED TO BOOK</button></a>
+            </div>
+
+            <div id="section-about">
+                <h2>Details About Event</h2>
+                <p>Equal blame belongs to those who fail in their duty through weakness of will, which is the same
+                    as
+                    saying
+                    through shrinking from toil and pain.</p>
+                <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of
+                    choice is
+                    untrammelled and when nothing every pleasure is to be welcomed and every pain avoided. But in
+                    certain
+                    circumstances and owing to the claims of duty or the obligations of business.</p>
+            </div>
+
+            <div id="section-schedule">
+                <h2>Event Schedule</h2>
+                <div class="section-schedule__grid">
+                    <div class="section-schedule__time-1">
+                        <p>10am - 12pm</p>
+                    </div>
+                    <div class="section-schedule__txt-1">
+                        <h3>Introduction of independent Japanese antiquity</h3>
+                        <p>Enjoy a 2 hours express Highlights</p>
+                    </div>
+                    <div class="section-schedule__time-2">
+                        <p>1pm - 4pm</p>
+                    </div>
+                    <div class="section-schedule__txt-2">
+                        <h3>A curated selection of Japanese antiques</h3>
+                        <p>This program will take place in Classroom B</p>
+                    </div>
+                    <div class="section-schedule__time-3">
+                        <p>4.30pm - 6pm</p>
+                    </div>
+                    <div class="section-schedule__txt-3">
+                        <h3>Know Antiques roadshow appraiser from exper</h3>
+                        <p>Owing to te claims of duty or the obligations</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="section-gallery">
+                <div class="img-title">
+                    <h2>Gallery</h2>
+                </div>
+                <div class="section-gallery__flex">
+                    <img src="img/2.jpg" alt="Arabic" />
+                    <img src="img/3.jpg" alt="Vikings" />
+                    <img src="img/4.jpg" alt="Asia" />
+                    <img src="img/5.jpg" alt="Japenese" />
+                </div>
+            </div>
+
+            <div id="section-contact">
+                <h2>Contact Information</h2>
+                <div class="section-contact__txt">
+                    <p>Do you have any query about this event pls contact our team</p>
+                </div>
+                <div class="section-contact__txt">
+                    <h6>ADDRESS</h6>
+                    <p>61 Wellfield Road Roath, 2nd Str, Cardiff CF24002 3DG</p>
+                </div>
+                <div class="section-contact__txt">
+                    <h6>PHONE</h6>
+                    <p>321 (888) 789-0123 & 4567</p>
+                </div>
+                <div class="section-contact__txt">
+                    <h6>EMAIL</h6>
+                    <p>egyptmuseumevent@example.com</p>
+                </div>
+            </div>
+
+            <div class="section-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.9402697215824!2d-3.1674131838723616!3d51.49596357963325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1cea2cdd45d9%3A0xb5081daee4d8733a!2s61%20Wellfield%20Rd%2C%20Cardiff%20CF24%203PA%2C%20Royaume-Uni!5e0!3m2!1sfr!2sbe!4v1602683830167!5m2!1sfr!2sbe"
+                    frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+
+            <div class="nav-page">
+                <div class="nav-page__previous">
+                    <i class="fas fa-chevron-circle-left fa-3x"></i>
+                    <p> PREV EVENT</p>
+                    <h3>Are there Carbon Monoxide Detectors</h3>
+                </div>
+                <div class="nav-page__next">
+                    <p>NEXT EVENT</p>
+                    <h3>Are there Carbon Monoxide Detectors</h3>
+                    <i class="fas fa-chevron-circle-right fa-3x"></i>
+                </div>
+            </div>
+        </main>
+        <footer>
+        </footer>
+    </div>
+</body>
+</html>
